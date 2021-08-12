@@ -13,7 +13,7 @@ const Search = () => {
   e.preventDefault();
   setLoading(true);
   setError(false)
-  fetch(`https://api.openweathermap.org/data/2.5/weather?q=${input}&units=metric&APPID=213b8ca0dee8f75518a289851ac4190f`)
+  fetch(`https://api.openweathermap.org/data/2.5/weather?q=${input}&units=metric&APPID=`)
   .then(res=>{
    if(!res.ok){
     throw Error("Cound not find the requested data")
