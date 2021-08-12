@@ -24,7 +24,7 @@ const GetLocation = () => {
   setLon(position.coords.longitude)	
  }
  
- let url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&APPID=213b8ca0dee8f75518a289851ac4190f`;
+ let url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&APPID=`;
  
  useEffect(()=>{
   const abortCont = new AbortController();
