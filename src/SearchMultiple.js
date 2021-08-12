@@ -9,7 +9,7 @@ const SearchMultiple = () => {
  const [error, setError] = useState(null);
 
  
- let url = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&exclude=alerts,minutely,current,hourly&units=metric&APPID=213b8ca0dee8f75518a289851ac4190f`;
+ let url = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&exclude=alerts,minutely,current,hourly&units=metric&APPID=`;
  
  useEffect(()=>{
   const abortCont = new AbortController();
